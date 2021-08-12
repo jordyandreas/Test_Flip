@@ -49,7 +49,6 @@ export const styleGlobal = StyleSheet.create({
     viewContListTrans: {
         flexDirection: 'row',
         width: ww * 0.98,
-        height: wh * 0.12,
         justifyContent: 'center',
         alignSelf: 'center',
         marginBottom: 10
@@ -57,7 +56,6 @@ export const styleGlobal = StyleSheet.create({
 
     viewListTransDet: {
         width: ww * 0.96,
-        height: wh * 0.12,
         borderTopEndRadius: 7,
         borderBottomEndRadius: 7,
         backgroundColor: colorGlobal.white
@@ -70,13 +68,13 @@ export const styleGlobal = StyleSheet.create({
 
     viewListTrans: {
         width: ww * 0.58,
-        height: wh * 0.12,
         flexDirection: 'column',
         alignSelf: 'center',
+        marginTop: 15,
+        marginBottom: 15,
     },
 
     viewSubListTrans: {
-        height: wh * 0.12,
         justifyContent: 'center',
         alignItems: 'center'
     },
@@ -110,15 +108,15 @@ export const styleGlobal = StyleSheet.create({
 
     viewBoxStatus: {
         width: ww * 0.3,
-        height: wh * 0.12,
         justifyContent: 'center',
         alignSelf: 'center',
         alignItems: 'flex-end',
+        marginTop: 15,
+        marginBottom: 15,
     },
 
     platformStatus: {
         width: ww * 0.02,
-        height: wh * 0.12,
         borderTopStartRadius: 7,
         borderBottomStartRadius: 7,
         backgroundColor: colorGlobal.midOrange
@@ -126,14 +124,12 @@ export const styleGlobal = StyleSheet.create({
 
     platformStatus_: {
         width: ww * 0.02,
-        height: wh * 0.12,
         borderTopStartRadius: 7,
         borderBottomStartRadius: 7,
         backgroundColor: colorGlobal.green
     },
 
     boxStatus: {
-        width: ww * 0.25,
         backgroundColor: colorGlobal.white,
         borderWidth: 1.5,
         borderColor: colorGlobal.orange,
@@ -143,7 +139,6 @@ export const styleGlobal = StyleSheet.create({
     },
 
     boxStatus_: {
-        width: ww * 0.2,
         backgroundColor: colorGlobal.green,
         borderWidth: 1.5,
         borderColor: colorGlobal.green,
