@@ -153,19 +153,19 @@ export const styleGlobal = StyleSheet.create({
     },
 
     fontStatus: {
-        fontSize: 16,
+        fontSize: 15,
         color: colorGlobal.black,
         fontWeight: 'bold',
         alignSelf: 'center',
-        margin: 3
+        margin: 5
     },
 
     fontStatus_: {
-        fontSize: 16,
+        fontSize: 15,
         color: colorGlobal.white,
         fontWeight: '700',
         alignSelf: 'center',
-        margin: 3
+        margin: 5
     },
 
     //view sort
@@ -351,7 +351,7 @@ export const styleGlobal = StyleSheet.create({
     txtShowDetil: {
         fontSize: 15,
         fontWeight: '600',
-        color: colorGlobal.orange
+        color: colorGlobal.midOrange
     },
 
     viewDivide_: {

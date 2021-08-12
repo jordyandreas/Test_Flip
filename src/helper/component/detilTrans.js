@@ -33,7 +33,7 @@ const DetilTrans = ({ onPressCopy, onPressShow, isShowDetail, detailTrans }) => 
 
                     <View style={styleGlobal.viewContDetilShow}>
                         <View style={styleGlobal.viewSenderDetil}>
-                            <Text style={styleGlobal.txtSenderDetil}>{detailTrans.sender_Name}{'\u2794'}{detailTrans.b_Bank}</Text>
+                            <Text style={styleGlobal.txtSenderDetil}>{detailTrans.sender_Name}{' \u2794 '}{detailTrans.b_Bank}</Text>
                         </View>
 
                         <View style={styleGlobal.viewContColumnDetil}>
